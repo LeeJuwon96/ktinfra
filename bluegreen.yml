@@ -18,7 +18,7 @@ kind: Deployment
 metadata:
   name: ktcloud-blue
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       color: blue
